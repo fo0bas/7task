@@ -1,5 +1,9 @@
 
-![Добавить заголовок (4)](https://github.com/user-attachments/assets/7553cc44-732e-4b55-a9ca-d81ced8f19c0)
+![Добавить заголовок (4)](https://github.com/user-attachments/assets/7553cc44-732e-4b55-a9ca-d81ced8f19c0) <br>
+
+<a href="https://fo0bas.github.io/7task/" style="background-color: #af504c; border-radius: 5px; color: white; padding: 10px 15px; text-decoration: none; display: inline-block;">
+    Перейти на 7TASK
+</a>
 
 
 ### 7TASK  - это проект представляет собой веб-приложение для управления задачами, которое позволяет пользователям создавать, редактировать и удалять задачи, а также распределять их по дням. Приложение имеет интуитивно понятный интерфейс и поддерживает функцию приоритизации задач.<br>
