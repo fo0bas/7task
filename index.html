@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Плановые задачи</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Подключение основного CSS -->
+    <link rel="stylesheet" href="log.css"> <!-- Подключение нового CSS -->
+    <style>
+        /* Скрываем элемент days-slider */
+        #days-slider {
+            display: none; /* Элемент не будет отображаться */
+        }
+    </style>
+</head>
+<body>
+    <div class="task-creation">
+        <input type="text" id="task-input" placeholder="Введите задачу...">
+        <button id="create-task-button">Создать</button>
+    </div>
+    
+    <div class="task-distribution" id="task-distribution">
+        <!-- Задачи будут добавлены сюда -->
+    </div>
+    
+    <input id="days-slider">
+    <div class="days-wrapper" id="days-wrapper">
+        <!-- Поля дней будут добавлены сюда -->
+    </div>
+    
+    <div class="navigation-buttons">
+        <button id="prev-day-button">⮜</button>
+        <button id="next-day-button">⮞</button>
+    </div>
+    
+    <div id="task-modal" class="task-modal">
+        <div class="modal-content">
+            <div style="text-align: right;">
+                <button id="copy-button" class="priority-button" style="font-size: 50px; background: none; border: none; cursor: pointer;">🗐</button>
+                <button id="low-priority-button" class="priority-button">Обычная</button>
+                <button id="medium-priority-button" class="priority-button">Нормальный</button>
+                <button id="high-priority-button" class="priority-button">Важное</button>
+                <span class="close-button" id="close-modal">&times;</span>
+                <span style="margin-left: 30px;"></span>
+                <span class="edit-button" id="edit-button" style="font-size: 50px;">&#x270E;</span>
+            </div>
+            <p id="full-task-text"></p>
+        </div>
+    </div>
+    <!-- ТУТ НАХОДЯТСЯ КНОПКИ СКАЧИВАНИЯ  И ЗАГРУЗКИ ЗАДАЧ  -->
+    <div class="button-container">
+        <button id="download-button" title="Скачать все задачи">🡻</button>
+        <input type="file" id="upload-input" style="display: none;" />
+        <button id="upload-button" title="Загрузить ранее скаченные задачи">🡹</button>
+    </div>
+    <script src="script.js"></script> <!-- Подключение JavaScript -->
+</body>
+</html>
